@@ -1,0 +1,83 @@
+body {
+    background-image: url(images/background.jpg);
+   
+    background-repeat: no-repeat;
+	background-size: cover;
+	
+	margin-left: 20;
+}
+
+//for right and left div align
+// starts here
+#wrapper {
+     margin: 0 auto;
+}
+#leftcolumn, #rightcolumn {
+    float: left;
+}
+
+#rightcolumn {
+	margin-left: 70px;
+}
+
+//for navbar
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+//for flexible table view
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #444; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+//for flexible submit button
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: #99ff66; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	width: 20em;  height: 2em;
+	margin-left: 100px;
+}
